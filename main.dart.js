@@ -48117,7 +48117,7 @@ return A.L(null,r)}})
 return A.M($async$vb,r)}}
 A.alI.prototype={}
 A.a2s.prototype={
-D2(){var s=A.aM9("http://localhost:9898",!0),r=new A.MI(A.a([B.BG],t.i6)),q=new A.a4X($,r,$,new A.a2q(A.aWF()),!1)
+D2(){var s=A.aM9("https://phorevr-09ba19e6f8ae.herokuapp.com",!0),r=new A.MI(A.a([B.BG],t.i6)),q=new A.a4X($,r,$,new A.a2q(A.aWF()),!1)
 q.Uu$=s
 q.Uv$=new A.a2R(A.aP(t.cj))
 this.b!==$&&A.dl()
