@@ -9771,9 +9771,9 @@ _.c=null},
 amX:function amX(){},
 amY:function amY(){},
 kn:function kn(){var _=this
-_.e=_.d=_.c=_.b=_.a=null},
+_.e=_.d=_.c=_.b=null},
 ayx(a){var s=new A.Ju(null,null),r=A.aBk(a,null),q=J.a1(r)
-s.a=q.h(r,"app")
+s.a=q.h(r,"wallet")
 s.b=q.h(r,"startedAt")
 s.c=q.h(r,"stoppedAt")
 return s},
@@ -49431,7 +49431,7 @@ case 1:return A.K(p,r)}})
 return A.M($async$kK,r)}}
 A.kn.prototype={}
 A.Ju.prototype={
-mX(){return A.aA(["app",this.a,"startedAt",this.b,"stoppedAt",this.c],t.N,t.T)},
+mX(){return A.aA(["wallet",this.a,"startedAt",this.b,"stoppedAt",this.c],t.N,t.T)},
 jM(){return A.ar0(this.mX(),null,null)}}
 A.alf.prototype={}
 A.eY.prototype={}
@@ -49797,7 +49797,7 @@ case 2:n=c
 if(n!=null&&n.length!==0){q=A.ayx(n)
 q.c=new A.et(Date.now(),!1).Cd().Cb()
 p.Dd(q)}s=3
-return A.E(o.kK(0,"active_session",A.ar0(new A.Ju(a.a,new A.et(Date.now(),!1).Cd().Cb()).mX(),null,null)),$async$vj)
+return A.E(o.kK(0,"active_session",A.ar0(new A.Ju(a.b,new A.et(Date.now(),!1).Cd().Cb()).mX(),null,null)),$async$vj)
 case 3:p=a.c
 p.toString
 A.a27(A.k4(p,0,null))
@@ -49878,7 +49878,7 @@ $1(a){return A.aAw(J.aT(a.a,"user"))},
 $S:361}
 A.aqq.prototype={
 $1(a){var s=new A.kn(),r=J.a1(a)
-s.a=r.h(a,"_id")
+r.h(a,"_id")
 s.b=r.h(a,"wallet")
 s.c=r.h(a,"url")
 s.d=r.h(a,"logo")
