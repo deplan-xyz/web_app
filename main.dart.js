@@ -31190,7 +31190,7 @@ baL(a){if(typeof a=="number")return a
 if(a==null)return null
 return J.aGO(a)},
 b3W(a){var s=A.bD("^(http:\\/\\/|https:\\/\\/)",!0,!1,!1)
-if(!s.b.test(a))return"http://"+a
+if(!s.b.test(a))return"https://"+a
 return a},
 Lz(a,b,c,d,e){return A.b9B(a,b,c,d,e,e)},
 b9B(a,b,c,d,e,f){var s=0,r=A.B(f),q,p
